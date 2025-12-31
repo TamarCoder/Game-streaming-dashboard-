@@ -1,0 +1,108 @@
+// Colors
+$primary-color: #6c7aff;
+$primary-dark: #5a6aef;
+$secondary-color: #764ba2;
+$accent-color: #ff1e8e;
+
+$background-dark: #1a1d2e;
+$background-darker: #16213e;
+$surface-bg: rgba(31, 35, 61, 0.4);
+$surface-bg-hover: rgba(255, 255, 255, 0.05);
+$surface-bg-active: rgba(255, 255, 255, 0.1);
+
+$border-color: rgba(255, 255, 255, 0.05);
+$border-color-hover: rgba(108, 122, 255, 0.3);
+
+// Text Colors
+$text-primary: #fff;
+$text-secondary: rgba(255, 255, 255, 0.9);
+$text-muted: rgba(255, 255, 255, 0.6);
+$text-disabled: rgba(255, 255, 255, 0.5);
+
+// Status Colors
+$success-color: #4ade80;
+$error-color: #f87171;
+$warning-color: #fbbf24;
+$info-color: #60a5fa;
+
+// Gradients
+$gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$gradient-blue: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+$gradient-purple: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+$gradient-orange: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+$gradient-background: linear-gradient(135deg, #1a1d2e 0%, #16213e 100%);
+$gradient-valorant: linear-gradient(135deg, #ff0844 0%, #ff1e8e 100%);
+$gradient-galaxy: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+$gradient-csgo: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 0.75rem;
+$spacing-lg: 1rem;
+$spacing-xl: 1.5rem;
+$spacing-2xl: 2rem;
+$spacing-3xl: 3rem;
+
+// Border Radius
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 16px;
+$radius-full: 50%;
+
+// Font Sizes
+$font-xs: 0.625rem;
+$font-sm: 0.75rem;
+$font-base: 0.875rem;
+$font-md: 1rem;
+$font-lg: 1.25rem;
+$font-xl: 1.5rem;
+$font-2xl: 1.75rem;
+$font-3xl: 2rem;
+
+// Font Weights
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extrabold: 800;
+
+// Transitions
+$transition-fast: 0.15s;
+$transition-base: 0.3s;
+$transition-slow: 0.5s;
+
+// Shadows
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+$shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.2);
+$shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.3);
+$shadow-primary: 0 10px 30px rgba(108, 122, 255, 0.3);
+
+// Z-index
+$z-base: 1;
+$z-dropdown: 10;
+$z-sticky: 100;
+$z-fixed: 1000;
+$z-modal-backdrop: 10000;
+$z-modal: 10001;
+$z-tooltip: 10002;
+
+// Breakpoints
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1400px;
+
+// Layout
+$header-height: 80px;
+$sidebar-width: 280px;
+$sidebar-width-md: 240px;
+$sidebar-width-sm: 260px;
+
+// Backdrop Blur
+$blur-sm: 10px;
+$blur-md: 15px;
+$blur-lg: 20px;

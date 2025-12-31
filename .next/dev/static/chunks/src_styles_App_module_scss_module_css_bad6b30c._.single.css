@@ -1,0 +1,32 @@
+/* [project]/src/styles/App.module.scss.module.css [app-client] (css) */
+.App-module-scss-module__GzPHqq__app {
+  background: linear-gradient(135deg, #1a1d2e 0%, #16213e 100%);
+  min-height: 100vh;
+  position: relative;
+}
+
+.App-module-scss-module__GzPHqq__app:before {
+  content: "";
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(circle at 20% 30%, #6c7aff1a, #0000 40%), radial-gradient(circle at 80% 70%, #764ba21a, #0000 40%);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.App-module-scss-module__GzPHqq__app__container {
+  z-index: 1;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .App-module-scss-module__GzPHqq__app__container {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=src_styles_App_module_scss_module_css_bad6b30c._.single.css.map*/

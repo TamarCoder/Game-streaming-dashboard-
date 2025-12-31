@@ -1,0 +1,1460 @@
+[00:00:00.752] Server  LOG     ✓ Ready in 505ms
+[03:29:10.634] Server  LOG     ✓ Compiled in 183ms
+[18:17:01.500] Server  LOG     ✓ Compiled in 444ms
+[18:17:01.626] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: expected "{".
+   ╷
+83 │     ba
+   │       ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 83:7  root stylesheet
+Caused by: Error: expected "{".
+   ╷
+83 │     ba
+   │       ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 83:7  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner._fail$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86663:12)]
+    [at SpanScanner.expectChar$2$name (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86605:12)]
+    [at SpanScanner.expectChar$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86608:19)]
+    [at ScssParser0.children$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:118133:10)]
+    [at ScssParser0._stylesheet0$_withChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126544:39)]
+    [at ScssParser0._stylesheet0$_withChildren$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126549:19)]
+    [at ScssParser0._stylesheet0$_withStyleRuleChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122944:20)]
+    [at ScssParser0._stylesheet0$_styleRule$2 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122934:22)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:17:04.883] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: expected "{".
+   ╷
+83 │     back
+   │         ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 83:9  root stylesheet
+Caused by: Error: expected "{".
+   ╷
+83 │     back
+   │         ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 83:9  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner._fail$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86663:12)]
+    [at SpanScanner.expectChar$2$name (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86605:12)]
+    [at SpanScanner.expectChar$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86608:19)]
+    [at ScssParser0.children$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:118133:10)]
+    [at ScssParser0._stylesheet0$_withChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126544:39)]
+    [at ScssParser0._stylesheet0$_withChildren$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126549:19)]
+    [at ScssParser0._stylesheet0$_withStyleRuleChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122944:20)]
+    [at ScssParser0._stylesheet0$_styleRule$2 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122934:22)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:17:06.736] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: Expected expression.
+   ╷
+83 │     background-image: ;
+   │                       ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 83:23  root stylesheet
+Caused by: Error: Expected expression.
+   ╷
+83 │     background-image: ;
+   │                       ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 83:23  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner.error$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86527:19)]
+    [at ScssParser0._stylesheet0$_singleExpression$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124359:17)]
+    [at ScssParser0._stylesheet0$_expression$4$bracketList$consumeNewlines$singleEquals$until (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124029:40)]
+    [at ScssParser0._stylesheet0$_expression$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124264:19)]
+    [at ScssParser0._stylesheet0$_declarationOrBuffer$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122861:23)]
+    [at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122771:35)]
+    [at ScssParser0._stylesheet0$_statement$1$root (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122687:162)]
+    [at ScssParser0._stylesheet0$_statement$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122690:19)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:17:09.774] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:09.784] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:09.791] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:09.793] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:09.795] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:09.802] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:09.805] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:09.807] Server  LOG     ✓ Compiled in 346ms
+[18:17:09.910] Browser ERROR   ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve ''
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[18:17:12.008] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:12.010] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:12.011] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:12.012] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:12.013] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:12.014] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:12.016] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:12.040] Server  LOG     ✓ Compiled in 68ms
+[18:17:12.144] Browser ERROR   ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve './..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[18:17:14.660] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:14.662] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:14.663] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:14.665] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:14.666] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:14.668] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:14.669] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:14.692] Server  LOG     ✓ Compiled in 70ms
+[18:17:14.794] Browser ERROR   ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[18:17:17.849] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:17.850] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:17.851] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:17.852] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:17.853] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:17.855] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:17.856] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:17.881] Server  LOG     ✓ Compiled in 49ms
+[18:17:17.984] Browser ERROR   ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../..'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[18:17:21.353] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:21.354] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:21.357] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:21.358] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:21.360] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:21.361] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:21.362] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[18:17:21.385] Server  LOG     ✓ Compiled in 94ms
+[18:17:21.488] Browser ERROR   ./src/components/MainContent/MainContent.module.scss.module.css:519:5
+Module not found: Can't resolve '../../../public'
+  517 |
+  518 |   .section-title {
+> 519 |     font-size: 1rem;
+      |     ^
+  520 |   }
+  521 | }
+  522 |
+
+Import trace:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss.module.css [Client Component Browser]
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[18:17:26.567] Server  LOG     ✓ Compiled in 46ms
+[18:17:26.670] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: expected "{".
+   ╷
+84 │     ba
+   │       ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 84:7  root stylesheet
+Caused by: Error: expected "{".
+   ╷
+84 │     ba
+   │       ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 84:7  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner._fail$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86663:12)]
+    [at SpanScanner.expectChar$2$name (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86605:12)]
+    [at SpanScanner.expectChar$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86608:19)]
+    [at ScssParser0.children$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:118133:10)]
+    [at ScssParser0._stylesheet0$_withChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126544:39)]
+    [at ScssParser0._stylesheet0$_withChildren$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126549:19)]
+    [at ScssParser0._stylesheet0$_withStyleRuleChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122944:20)]
+    [at ScssParser0._stylesheet0$_styleRule$2 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122934:22)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:17:29.752] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: Expected expression.
+   ╷
+84 │     background-position: ;
+   │                          ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 84:26  root stylesheet
+Caused by: Error: Expected expression.
+   ╷
+84 │     background-position: ;
+   │                          ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 84:26  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner.error$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86527:19)]
+    [at ScssParser0._stylesheet0$_singleExpression$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124359:17)]
+    [at ScssParser0._stylesheet0$_expression$4$bracketList$consumeNewlines$singleEquals$until (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124029:40)]
+    [at ScssParser0._stylesheet0$_expression$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124264:19)]
+    [at ScssParser0._stylesheet0$_declarationOrBuffer$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122861:23)]
+    [at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122771:35)]
+    [at ScssParser0._stylesheet0$_statement$1$root (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122687:162)]
+    [at ScssParser0._stylesheet0$_statement$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122690:19)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:17:32.738] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: Expected expression.
+   ╷
+84 │     background-position: ;
+   │                          ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 84:26  root stylesheet
+Caused by: Error: Expected expression.
+   ╷
+84 │     background-position: ;
+   │                          ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 84:26  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner.error$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86527:19)]
+    [at ScssParser0._stylesheet0$_singleExpression$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124359:17)]
+    [at ScssParser0._stylesheet0$_expression$4$bracketList$consumeNewlines$singleEquals$until (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124029:40)]
+    [at ScssParser0._stylesheet0$_expression$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:124264:19)]
+    [at ScssParser0._stylesheet0$_declarationOrBuffer$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122861:23)]
+    [at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122771:35)]
+    [at ScssParser0._stylesheet0$_statement$1$root (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122687:162)]
+    [at ScssParser0._stylesheet0$_statement$0 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122690:19)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:17:40.103] Server  LOG     ✓ Compiled in 76ms
+[18:17:54.212] Server  LOG     ✓ Compiled in 102ms
+[18:18:15.313] Server  LOG     ✓ Compiled in 71ms
+[18:18:22.267] Server  LOG     ✓ Compiled in 53ms
+[18:18:22.372] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: expected "{".
+   ╷
+22 │   border-radius: $radius-xl;
+   │                            ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 22:28  root stylesheet
+Caused by: Error: expected "{".
+   ╷
+22 │   border-radius: $radius-xl;
+   │                            ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 22:28  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner._fail$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86663:12)]
+    [at SpanScanner.expectChar$2$name (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86605:12)]
+    [at SpanScanner.expectChar$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86608:19)]
+    [at ScssParser0.children$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:118133:10)]
+    [at ScssParser0._stylesheet0$_withChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126544:39)]
+    [at ScssParser0._stylesheet0$_withChildren$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126549:19)]
+    [at ScssParser0._stylesheet0$_withStyleRuleChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122944:20)]
+    [at ScssParser0._stylesheet0$_styleRule$2 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122934:22)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:18:26.539] Browser ERROR   ./src/components/MainContent/MainContent.module.scss
+Error evaluating Node.js code
+Error: expected "{".
+   ╷
+22 │   border-radius: $radius-xl;
+   │                            ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 22:28  root stylesheet
+Caused by: Error: expected "{".
+   ╷
+22 │   border-radius: $radius-xl;
+   │                            ^
+   ╵
+  src/components/MainContent/MainContent.module.scss 22:28  root stylesheet
+    [at Object.wrapException (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:2337:47)]
+    [at SpanScanner.error$3$length$position (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86524:15)]
+    [at SpanScanner._fail$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86663:12)]
+    [at SpanScanner.expectChar$2$name (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86605:12)]
+    [at SpanScanner.expectChar$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:86608:19)]
+    [at ScssParser0.children$1 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:118133:10)]
+    [at ScssParser0._stylesheet0$_withChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126544:39)]
+    [at ScssParser0._stylesheet0$_withChildren$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:126549:19)]
+    [at ScssParser0._stylesheet0$_withStyleRuleChildren$1$3 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122944:20)]
+    [at ScssParser0._stylesheet0$_styleRule$2 (/Users/tamarkhuskivadze/Desktop/untitled folder/node_modules/sass/sass.dart.js:122934:22)]
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MainContent/MainContent.module.scss [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Client Component Browser]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MainContent/MainContent.module.scss [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Client Component SSR]
+    ./src/components/MainContent/MainContent.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[18:19:33.270] Server  LOG     ✓ Compiled in 67ms
+[18:19:40.495] Server  LOG     ✓ Compiled in 58ms
+[18:20:35.800] Server  LOG     ✓ Compiled in 113ms
+[18:20:55.946] Server  LOG     ✓ Compiled in 73ms
+[18:21:11.688] Server  LOG     ✓ Compiled in 55ms
+[18:21:20.836] Server  LOG     ✓ Compiled in 59ms
+[18:24:48.495] Server  LOG     ✓ Compiled in 93ms
+[18:24:50.412] Server  LOG     ✓ Compiled in 8ms
+[18:25:00.821] Server  LOG     ✓ Compiled in 13ms
+[18:25:02.598] Server  LOG     ✓ Compiled in 6ms
+[18:25:28.215] Server  LOG     ✓ Compiled in 21ms
+[18:25:34.598] Server  LOG     ✓ Compiled in 18ms
+[18:25:41.255] Server  LOG     ✓ Compiled in 15ms
+[19:50:59.800] Server  LOG     ✓ Compiled in 328ms
+[19:52:18.598] Server  LOG     ✓ Compiled in 189ms
+[19:53:47.612] Server  LOG     ✓ Compiled in 149ms
+[19:56:45.188] Server  LOG     ✓ Compiled in 201ms
+[19:58:53.638] Server  LOG     ✓ Compiled in 93ms
+[19:58:53.786] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:58:54.304] Server  LOG     ✓ Compiled in 230ms
+[19:58:54.407] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:58:57.448] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:58:58.457] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:59:03.378] Server  ERROR   ⨯ ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+
+
+[19:59:03.501] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:59:04.290] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:59:04.290] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:59:05.389] Browser ERROR   uncaughtError: Error: ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+
+
+[19:59:05.497] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:59:05.672] Browser ERROR   ./src/components/MainContent/MainContent.tsx:132:19
+Parsing ecmascript source code failed
+  130 |                 <span className={styles['player-score']}>2139.9</span>
+  131 |               </div>
+> 132 |             </div>
+      |                   ^
+> 133 |             <div className={styles['stat-card__ranking']}>
+      | ^^^^^^^^^^^^^
+  134 |               <div className={styles['rank-item']}>
+  135 |                 <span className={styles['rank-position']}>2</span>
+  136 |                 <span className={styles['rank-score']}>-56.0</span>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./src/components/MainContent/MainContent.tsx
+    ./src/app/page.tsx
+[19:59:28.247] Server  LOG     ✓ Compiled in 102ms
+[20:00:07.902] Server  LOG     ✓ Compiled in 177ms
+[20:00:32.458] Server  LOG     ✓ Compiled in 220ms
+[20:01:07.374] Server  LOG     ✓ Compiled in 95ms
+[20:02:39.978] Server  LOG     ✓ Compiled in 140ms
+[20:03:44.578] Server  LOG     ✓ Compiled in 153ms
+[20:03:55.494] Server  LOG     ✓ Compiled in 57ms
+[20:07:28.519] Server  LOG     ✓ Compiled in 331ms
+[20:22:06.722] Server  LOG     ✓ Compiled in 202ms
+[20:22:32.763] Server  LOG     ✓ Compiled in 162ms
+[20:24:24.483] Server  LOG     ✓ Compiled in 90ms
+[20:25:36.569] Server  LOG     ✓ Compiled in 153ms
+[20:26:30.242] Server  LOG     ✓ Compiled in 200ms
+[20:41:21.845] Server  LOG     ✓ Compiled in 200ms
+[20:42:48.332] Server  LOG     ✓ Compiled in 124ms
+[20:44:32.548] Server  LOG     ✓ Compiled in 138ms
+[20:45:41.576] Server  LOG     ✓ Compiled in 110ms
+[20:45:53.909] Server  LOG     ✓ Compiled in 47ms
+[20:46:08.853] Server  LOG     ✓ Compiled in 45ms

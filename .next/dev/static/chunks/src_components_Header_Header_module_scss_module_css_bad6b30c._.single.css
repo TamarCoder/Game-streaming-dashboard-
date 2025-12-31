@@ -1,0 +1,141 @@
+/* [project]/src/components/Header/Header.module.scss.module.css [app-client] (css) */
+.Header-module-scss-module__wS1-Va__header {
+  backdrop-filter: blur(10px);
+  background: #1f233d66;
+  border-bottom: 1px solid #ffffff0d;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  display: flex;
+}
+
+.Header-module-scss-module__wS1-Va__header__left {
+  align-items: center;
+  gap: 3rem;
+  display: flex;
+}
+
+.Header-module-scss-module__wS1-Va__header__logo {
+  color: #fff;
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.Header-module-scss-module__wS1-Va__header__logo-icon {
+  font-size: 1.5rem;
+}
+
+.Header-module-scss-module__wS1-Va__header__logo-text span {
+  color: #6c7aff;
+}
+
+.Header-module-scss-module__wS1-Va__header__nav {
+  gap: 2rem;
+  display: flex;
+}
+
+.Header-module-scss-module__wS1-Va__header__nav-link {
+  color: #fff9;
+  font-size: .875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+  position: relative;
+}
+
+.Header-module-scss-module__wS1-Va__header__nav-link:hover, .Header-module-scss-module__wS1-Va__header__nav-link--active {
+  color: #fff;
+}
+
+.Header-module-scss-module__wS1-Va__header__nav-link--active:after {
+  content: "";
+  background: #6c7aff;
+  height: 2px;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+  right: 0;
+}
+
+.Header-module-scss-module__wS1-Va__header__right {
+  align-items: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.Header-module-scss-module__wS1-Va__header__icon-btn {
+  cursor: pointer;
+  background: #ffffff0d;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: background .3s;
+  display: flex;
+}
+
+.Header-module-scss-module__wS1-Va__header__icon-btn:hover {
+  background: #ffffff1a;
+}
+
+.Header-module-scss-module__wS1-Va__header__icon-btn span {
+  font-size: 1.25rem;
+}
+
+.Header-module-scss-module__wS1-Va__header__profile {
+  cursor: pointer;
+  align-items: center;
+  gap: .75rem;
+  display: flex;
+}
+
+.Header-module-scss-module__wS1-Va__header__profile-avatar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) center / cover no-repeat;
+  border: 2px solid #6c7aff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.Header-module-scss-module__wS1-Va__header__profile-name {
+  color: #fff;
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .Header-module-scss-module__wS1-Va__header__nav {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .Header-module-scss-module__wS1-Va__header__nav {
+    display: none;
+  }
+
+  .Header-module-scss-module__wS1-Va__header__left {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .Header-module-scss-module__wS1-Va__header {
+    padding: 1rem;
+  }
+
+  .Header-module-scss-module__wS1-Va__header__profile-name {
+    display: none;
+  }
+
+  .Header-module-scss-module__wS1-Va__header__right {
+    gap: .75rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_Header_Header_module_scss_module_css_bad6b30c._.single.css.map*/
