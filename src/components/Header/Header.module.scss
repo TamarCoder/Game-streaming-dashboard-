@@ -1,4 +1,4 @@
-@use '../../styles/variables' as *;
+@use "../../styles/variables" as *;
 
 .header {
   display: flex;
@@ -8,11 +8,19 @@
   background: $surface-bg;
   backdrop-filter: blur($blur-sm);
   border-bottom: 1px solid $border-color;
+  position: relative;
+  z-index: 100;
+  overflow: visible;
 
   &__left {
     display: flex;
     align-items: center;
     gap: 3rem;
+  }
+
+  &__notification-wrapper {
+    position: relative;
+    z-index: 10000;
   }
 
   &__logo {
@@ -52,9 +60,9 @@
 
       &--active {
         color: $text-primary;
-        
+
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           bottom: -$spacing-xl;
           left: 0;
@@ -70,6 +78,10 @@
     display: flex;
     align-items: center;
     gap: $spacing-xl;
+  }
+
+  &__notification_wrapper {
+    position: relative;
   }
 
   &__icon-btn {
