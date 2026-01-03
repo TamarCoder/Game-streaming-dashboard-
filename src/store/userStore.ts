@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-interface User {
+export interface User {
     id: string;
     username: string;
     avatarUrl: string;
@@ -27,7 +27,7 @@ interface User {
     };
 }
 
-interface UserStore {
+export interface UserStore {
     currentUser: User | null;
     login: (user: User) => void;
     logout: () => void;

@@ -1,0 +1,77 @@
+@use '../../../styles/variables' as *;
+
+.modal {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 350px;
+  max-height: 400px;
+  z-index: 9999;
+  background: $background-dark;
+  border: 1px solid $border-color;
+  border-radius: $radius-md;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  animation: slideDown 0.3s ease-out;
+
+  &__header {
+    padding: $spacing-lg;
+    border-bottom: 1px solid $border-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h3 {
+      margin: 0;
+      color: $text-primary;
+      font-size: $font-lg;
+      font-weight: $font-semibold;
+    }
+  }
+  &__close_btn {
+    background: transparent;
+    border: none;
+    font-size: $font-xl;
+    color: $text-muted;
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $text-primary;
+    }
+  }
+
+  &__content {
+    padding: $spacing-md;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  &__item {
+    padding: $spacing-md;
+    margin-bottom: $spacing-sm;
+    background: $surface-bg-hover;
+    border-radius: $radius-sm;
+    transition: background 0.2s;
+    cursor: pointer;
+    
+    &:hover {
+      background: $surface-bg-active;
+    }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

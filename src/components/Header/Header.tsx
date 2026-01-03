@@ -3,14 +3,31 @@
 import React from "react";
 import styles from "./Header.module.scss";
 import NotificationModal from "./NotificationModal/NotificationModal";
+import SettingModal from "./SettingModal/SettingModal";
+import ProfileModal from "./ProfileModal/ProfileModal";
+import { useUserStore } from "@/store/userStore";
 
 const Header: React.FC = () => {
   const [isNotificationModalOpen, setIsNotificationModalOpen] =
     React.useState(false);
+  const [isSettingModalOpen, setIsSettingModalOpen] = React.useState(false);
+  const [isProfileModalOpen, setIsProfileModalOpen] = React.useState(false);
+
+  const currentUser = useUserStore((state) =>state.currentUser)
+
+  const handleProfileClick = () => {
+    setIsProfileModalOpen(true);
+    console.log("Profile modal opened");
+  };
 
   const handleBellClick = () => {
     setIsNotificationModalOpen(true);
     console.log("Notification modal opened");
+  };
+
+  const handleSettingsClick = () => {
+    setIsSettingModalOpen(true);
+    console.log("Settings modal opened");
   };
   return (
     <header className={styles.header}>
@@ -58,15 +75,37 @@ const Header: React.FC = () => {
           )}
         </div>
 
-        <button className={styles["header__icon-btn"]}>
-          <span className={styles["icon-settings"]}>⚙️</span>
-        </button>
-        <div className={styles.header__profile}>
-          <div
-            className={styles["header__profile-avatar"]}
-            style={{ backgroundImage: "url(/avatars/9.png)" }}
-          ></div>
-          <span className={styles["header__profile-name"]}>William_Prince</span>
+        <div className={styles.header__notification_wrapper}>
+          <button
+            className={styles["header__icon-btn"]}
+            onClick={handleSettingsClick}
+          >
+            <span className={styles["icon-settings"]}>⚙️</span>
+          </button>
+          {isSettingModalOpen && (
+            <SettingModal
+              isOpen={isSettingModalOpen}
+              onClose={() => setIsSettingModalOpen(false)}
+            />
+          )}
+        </div>
+
+        <div className={styles.header__notification_wrapper}>
+          <button className={styles.header__profile} onClick={handleProfileClick}>
+            <div
+              className={styles["header__profile-avatar"]}
+              style={{ backgroundImage: `url(${currentUser?.avatarUrl})` }}
+            ></div>
+            <span className={styles["header__profile-name"]}>
+              {currentUser?.username}
+            </span>
+          </button>
+          {isProfileModalOpen && (
+            <ProfileModal
+              isOpen={isProfileModalOpen}
+              onClose={() => setIsProfileModalOpen(false)}
+            />
+          )}
         </div>
       </div>
     </header>

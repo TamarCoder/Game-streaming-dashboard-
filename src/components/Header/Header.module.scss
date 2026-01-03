@@ -110,6 +110,14 @@
     align-items: center;
     gap: $spacing-md;
     cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+    transition: opacity $transition-base;
+
+    &:hover {
+      opacity: 0.8;
+    }
 
     &-avatar {
       width: 40px;

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import '@/styles/index.scss'
+import UserInitializer from '@/components/UserInitializer'
 
 export const metadata: Metadata = {
   title: 'Game Streaming Dashboard',
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <UserInitializer />
+        {children}
+      </body>
     </html>
   )
 }
